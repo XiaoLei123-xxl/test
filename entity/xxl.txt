@@ -1,1 +1,12 @@
 23号可能会去
+号码
+    @Test
+    public void demo6() {
+        int[] arr = new int[]{2, 8, 7, 1, 5, 9, 0};
+        int[] index = new int[]{3, 4, 0, 4, 1, 1, 0, 6, 2, 6, 5};
+        String tel = "";
+        for (int i : index) {
+            tel += arr[i];
+        }
+        System.out.println(tel);
+    }
